@@ -11,3 +11,5 @@ console.log("hello praveen how are you");
 
 
 console.log("welcome to priority task in bug branch");
+console.log("hello praveen good morning");
+console.log("hello praveen good night");
