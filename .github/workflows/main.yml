@@ -1,0 +1,11 @@
+name: TestGHA1
+on: workflow_dispatch
+jobs:
+  autotest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: testGHA step
+        run: |
+          echo "This is line one"
+          echo "This is line two"
+    
