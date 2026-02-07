@@ -1,0 +1,21 @@
+name: multiple_jobs_run
+on: push
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build step
+        run: echo "welcome to build"
+
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test step
+        run: echo "welcome to test"
+
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delpoy test
+        run: echo "welcome to Deploy"
+    
