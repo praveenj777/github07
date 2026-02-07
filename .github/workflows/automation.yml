@@ -1,0 +1,13 @@
+name: BASIC_format_gha
+on: push
+jobs:
+  good to go:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo "welcome to chennai"
+        run: |
+          echo "Testing for gha one line"
+          echo "Testing for gha two line"
+          echo "Testing for gha three line"
+          echo "Testing for gha four line"
+          echo "Testing for gha five line"
