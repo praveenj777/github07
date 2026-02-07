@@ -1,7 +1,7 @@
 name: BASIC_format_gha
 on: push
 jobs:
-  good to go:
+  goodpraveen:
     runs-on: ubuntu-latest
     steps:
       - name: echo "welcome to chennai"
