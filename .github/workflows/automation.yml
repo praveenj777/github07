@@ -1,5 +1,5 @@
 name: BASIC_format_gha
-on: push
+on: workflow_dispatch
 jobs:
   goodpraveen:
     runs-on: ubuntu-latest
